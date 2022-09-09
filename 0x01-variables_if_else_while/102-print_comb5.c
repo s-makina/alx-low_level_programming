@@ -17,7 +17,7 @@ int main(void)
 			{
 				for (g = 48; g <= 57; g++)
 				{
-				if (((z + g) > (x + y) &&  z >= x) || x < g)
+				if (((z + g) > (x + y) &&  z >= x) || x < z)
 				{
 					putchar(x);
 					putchar(y);
@@ -38,7 +38,7 @@ int main(void)
 				}
 			}
 		}
-	}
+	}}
 	putchar('\n');
 	return (0);
 }
