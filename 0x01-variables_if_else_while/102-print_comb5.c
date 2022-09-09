@@ -15,7 +15,7 @@ int main(void)
 		{
 			for (z = 48; z <= 57; z++)
 			{
-				for (z = 48; z <= 57; z++)
+				for (g = 48; g <= 57; g++)
 				{
 				if (((z + g) > (x + y) &&  z >= x) || x < g)
 				{
