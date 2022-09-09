@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
  * main - Application entry point
- * Description: prints all possible combination
+ * Description: prints all possible combinations
  * Return: 0
  */
 int main(void)
