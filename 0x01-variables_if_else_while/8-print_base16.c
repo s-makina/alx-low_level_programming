@@ -13,7 +13,7 @@ int main(void)
 	while (y <= '9')
 	{
 		putchar(y);
-		d++;
+		y++;
 	}
 	for (x = 'a'; x <= 'f'; x++)
 	{
