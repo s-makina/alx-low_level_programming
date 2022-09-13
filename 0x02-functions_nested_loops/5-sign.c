@@ -6,7 +6,6 @@
  * Description: prints the sign of the given integer value
  * Return: Integer
  */
-
 int print_sign(int num)
 {
 	if (num > 0)
