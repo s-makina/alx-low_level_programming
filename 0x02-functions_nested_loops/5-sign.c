@@ -2,7 +2,7 @@
 
 /**
  * print_sign - Prototype
- * @num: Integer parameter 
+ * @num: Integer parameter
  * Description: prints the sign of the given integer value
  * Return: Integer
  */
