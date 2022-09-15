@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - draws a diagonal line on the terminal.
- * @n - Integer parameter
+ * @n: Integer parameter
  * Return: always 0
  */
 
