@@ -9,7 +9,7 @@ void print_numbers(void)
 {
 	for (int i = 0; i < 10; i++)
 	{
-		printf("%d", i + '0');
+		_putchar(i + '0');
 	}
-	print("\n");
+	_putchar('\n');
 }
