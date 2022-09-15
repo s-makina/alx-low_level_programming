@@ -11,7 +11,7 @@ void print_most_numbers(void)
 
 	while (a <= 9)
 	{
-		if (a != 4 || a != 2)
+		if (a != 4 && a != 2)
 		{
 			_putchar(a + '0');
 		}
