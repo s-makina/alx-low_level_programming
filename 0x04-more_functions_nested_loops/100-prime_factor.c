@@ -1,22 +1,26 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * print_number - prints numbers
- * @n: integer number
- * Return: void
+ * main - prime numbers
+ *
+ * Return: 0 always
  */
 
-void print_number(int n)
+int main(void)
 {
-	unsigned int x;
+	long num = 612852475143;
+	long divisor = 2;
+	long larg_prim = 0;
 
-	x = n;
-	if (n < 0)
+	while (num != 1)
 	{
-		_putchar(45);
-		x = -n;
+		if (num % divisor == 0)
+		{
+			num = num / divisor;
+			larg_prim = divisor;
+		}
+		divisor += 1;
 	}
-	if (x / 10)
-		print_number(x / 10);
-	_putchar((x % 10) + '0');
+	printf("%ld\n", larg_prim);
+	return (0);
 }
