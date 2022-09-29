@@ -1,16 +1,17 @@
 /**
  * _puts_recursion - prints a string, followed by a new line
- * @s: Char array to print
+ * @s: String print
  * Return: Nothing
  */
 
 void _puts_recursion(char *s)
 {
-	int size = sizeof(s);
-
-	for (int i = 0; i < size; i++)
+	if (*s)
 	{
-		_putchar(s[i]);
+		_putchar(*s);
+		_puts_recursion(s + 1);
 	}
-	_putchar('\n');
+
+	else
+		_putchar('\n');
 }
