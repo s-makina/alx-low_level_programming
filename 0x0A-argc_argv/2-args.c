@@ -9,16 +9,16 @@
 
 int main(int argc, char **argv)
 {
-	if (argc <= 0)
-	{
-		return 0;
-	}
-
 	int size = argc - 1;
+
+	if(size <= 0)
+	{
+		return (0);
+	}
 	
 	while (size--)
 	{
-		printf("%d\n", argv[size]);
+		printf("%d\n", *argv[size]);
 	}
 	return (0);
 }
