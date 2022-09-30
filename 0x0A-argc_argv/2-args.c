@@ -9,8 +9,13 @@
 
 int main(int argc, int **argv)
 {
-	int size = argc - 1;
+	if (argc <= 0)
+	{
+		return 0;
+	}
 
+	int size = argc - 1;
+	
 	while (size--)
 	{
 		printf("%d\n", argv[size]);
