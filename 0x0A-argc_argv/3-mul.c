@@ -11,12 +11,12 @@ int main(int argc, char **argv)
 {
 	int result;
 
-	if (argc != 2)
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	result = *argv[argc - 1] * *argv[argc - 2];
+	result = *argv[argc - 2] * *argv[argc - 3];
 	printf("%d", result);
 	return (0);
 }
