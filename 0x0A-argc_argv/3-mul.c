@@ -17,6 +17,6 @@ int main(int argc, char **argv)
 		return (1);
 	}
 	result = *argv[argc - 2] * *argv[argc - 3];
-	printf("%d", result);
+	printf("%d\n", result);
 	return (0);
 }
