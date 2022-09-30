@@ -1,0 +1,1 @@
+Static libralies in c
