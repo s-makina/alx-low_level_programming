@@ -9,17 +9,17 @@
 
 int main(int argc, char **argv)
 {
-	int size = argc - 1;
+	int i = 0;
 
-	if(size <= 0)
+	if(argc == 0)
 	{
 		return (0);
 	}
-	
-	while (size--)
+		
+	while (i < argc)
 	{
-		printf("%d\n", *argv[size]);
+		printf("%d\n", *argv[i]);
+		i++;
 	}
-	printf("%d\n", *argv[0]);
 	return (0);
 }
