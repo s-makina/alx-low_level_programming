@@ -35,7 +35,7 @@ int **alloc_grid(int width, int height)
 		{
 			for (n = 0; n < height; n++)
 			{
-				h[i][n] = 0;
+				w[i][n] = 0;
 			}
 		}
 	}
