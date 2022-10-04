@@ -24,5 +24,5 @@ int **alloc_grid(int width, int height)
 		}
 		w[i] = h;
 	}
-	return (h);
+	return (w);
 }
