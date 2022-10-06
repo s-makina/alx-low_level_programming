@@ -23,7 +23,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		;
 	for (g = 0; s2[g] != '\0'; g++)
 		;
-	if (g >= n)
+	if (g > n)
 		size = g;
 	else
 		size = n;
