@@ -41,8 +41,6 @@ int _binary_search(int *array, size_t left, size_t right, int value)
 }
 
 /**
-  * exponential_search - Searches for a value in a sorted array
-  *                      of integers using exponential search.
   * @array: A pointer to the first element of the array to search.
   * @size: The number of elements in the array.
   * @value: The value to search for.
